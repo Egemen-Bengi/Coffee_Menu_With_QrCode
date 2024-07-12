@@ -1,0 +1,62 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --main-color:#b59978;
+    --second-color:#edeae3;
+    --text-color:#1b1b1b;
+    --bg-color:#fff;
+}
+body {background-color: bisque;}
+
+img {
+  width: 80px;
+  border-radius: 20%;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.alt-cizgi {
+  border-top: 1px solid #691f00;
+  margin: 5px 40px;
+}
+
+h2{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.row {
+  text-align: center;
+}
+
+.product-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.atistirmalik-names
+.atistirmalik-price
+.sicak-urunler-names
+.sicak-urunler-price
+.soguk-urunler-names,
+.soguk-urunler-price {
+  margin: 0px;
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+li{
+  margin-bottom: 5px;
+}
